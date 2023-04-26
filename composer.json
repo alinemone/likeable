@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Alinemone\\Likeable\\": "src/"
+            "alinemone\\likeable\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "alinemone\\likeable\\Providers\\LikeableServiceProvider"
+                "alinemone\\likeable\\LikeableServiceProvider"
             ]
         }
     }
