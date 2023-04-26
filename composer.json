@@ -1,0 +1,30 @@
+{
+    "name": "alinemone/likeable",
+    "description": "Implementing a Like system for Laravel's Eloquent models.",
+    "keywords": ["Laravel", "Eloquent", "Laravel-Likeable", "Laravel Likeable"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alinemone\\Likeable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali alimohammadi",
+            "email": "alimohammayali@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/database": ">=5.0",
+        "illuminate/support": ">=5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alinemone\\Likeable\\src\\Providers\\LikeableServiceProvider"
+            ]
+        }
+    }
+}
