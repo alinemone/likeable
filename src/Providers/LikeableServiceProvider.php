@@ -1,6 +1,6 @@
 <?php
 
-namespace Alinemone\Likeable\Providers;
+namespace alinemone\likeable\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

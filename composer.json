@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alinemone\\Likeable\\src\\Providers\\LikeableServiceProvider"
+                "alinemone\\likeable\\src\\Providers\\LikeableServiceProvider"
             ]
         }
     }

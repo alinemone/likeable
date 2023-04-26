@@ -1,6 +1,6 @@
 <?php
 
-namespace Alinemone\Likeable\Models;
+namespace alinemone\likeable\Models;
 
 trait Likeable
 {
